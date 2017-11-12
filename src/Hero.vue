@@ -18,6 +18,6 @@ export default {
 
 <style lang="sass" scoped>
 .hero-img
-  background: url(./assets/6.png)center center
+  background: url(./assets/6.jpg)center center
   background-size: cover
 </style>

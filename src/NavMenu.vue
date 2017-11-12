@@ -44,5 +44,6 @@ a
 <style lang="sass">
 #menu
   position: sticky
+  position: -webkit-sticky
   top: 0
 </style>

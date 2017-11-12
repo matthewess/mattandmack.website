@@ -12,7 +12,7 @@
       .notification.is-primary
         h1.title the ritz charles
         a.subtitle(href='https://goo.gl/ZyHt1m') 12156 n. meridian st, carmel, in 46032
-        img(src='./assets/garden-pavilion-small.png')
+        img(src='./assets/garden-pavilion-small.jpg')
 </template>
 
 <script>

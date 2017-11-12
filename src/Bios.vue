@@ -8,7 +8,7 @@
         | his passions include justice for the poor, occasional ukulele playing,
         | and far too much tv, movies, and music.
     .column
-      img(src='./assets/9-opt.png')
+      img(src='./assets/9-opt.jpg')
     .column
       h1.title mackenzie
       p.notification.is-primary mack studies social psychology at purdue university,&nbsp;
