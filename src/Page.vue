@@ -76,6 +76,7 @@ $family-title: 'Playball'
 .columns
   margin-top: 30px
   margin-right: 15px
+  margin-left: 15px
 .title
   font-family: $family-title
   font-size: 3.25rem

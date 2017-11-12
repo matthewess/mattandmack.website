@@ -3,9 +3,9 @@
   .columns.is-multiline
     template(v-for='image in images')
       .column.is-half(v-if='image.wide')
-        img(:src='image.src')
+        img.image.is-1by2.wide(:src='image.src')
       .column.is-one-quarter(v-else)
-        img(:src='image.src')
+        img.image.is-3by1.narrow(:src='image.src')
 </template>
 
 <script>
@@ -33,8 +33,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-img
-  height: 333.5px
+img.narrow
+  clip-path: inset(0px 0px 13px 0px)
 #gallery
   margin-bottom: 30px
 </style>

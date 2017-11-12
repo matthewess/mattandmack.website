@@ -1,7 +1,7 @@
 <template lang="pug">
 #location
   .columns
-    .column
+    .column.is-hidden-mobile
       gmap-map(
         :center='{ lat: 39.9648, lng: -86.1591 }'
         :zoom='15'
@@ -22,9 +22,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.notification
-  width: 500px
-  height: 500px
 .title
   margin-bottom: 0px
 img
