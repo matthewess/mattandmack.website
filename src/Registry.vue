@@ -4,7 +4,7 @@
   .level
     .level-item
       a(href='https://www.amazon.com/wedding/matthew-ess-mackenzie-mcdonald-carmel-july-2018/registry/1S6K92BORBFZL')
-        img.image.is-2by3(src='/src/assets/amazon.png')
+        img.image.is-2by3(src='./assets/amazon.png')
 </template>
 
 <script>
