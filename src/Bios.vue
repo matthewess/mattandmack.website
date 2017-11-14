@@ -13,7 +13,7 @@
       h1.title mackenzie
       p.notification.is-primary mack studies social psychology at purdue university,&nbsp;
         | doing cutting edge research in prejudice and discrimination.
-        | she plans to pursue a PhD after graduation so she can continue her research.
+        | she plans to pursue graduate school after this year so she can continue her research.
         | mack's hobbies include art of many varieties and organizing students at purdue
         | for social justice.
 </template>
