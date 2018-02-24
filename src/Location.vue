@@ -10,7 +10,8 @@
       )
     .column
       .notification.is-primary
-        h1.title the ritz charles
+        h1.title reception at
+        h2.subtitle the ritz charles
         a.subtitle(href='https://goo.gl/ZyHt1m') 12156 n. meridian st, carmel, in 46032
         img(src='./assets/garden-pavilion-small.jpg')
 </template>
@@ -22,8 +23,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.title
-  margin-bottom: 0px
 img
   margin-top: 60px
 </style>
