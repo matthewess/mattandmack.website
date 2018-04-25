@@ -1,18 +1,18 @@
 <template lang="pug">
 #location
   .columns
-    .column.is-hidden-mobile
-      gmap-map(
-        :center='{ lat: 39.9648, lng: -86.1591 }'
-        :zoom='15'
-        map-type-id='terrain'
-        style='width: 500px; height: 500px;'
-      )
     .column
       .notification.is-primary
+        h1.title ceremony at
+        h2.subtitle west park
+        a.subtitle(href='https://goo.gl/maps/bXWhhLQevHH2') 2700 w. 116th st, carmel, in 46044
+        img(src='./assets/west-park.jpg')
+    .column
+      .notification.is-primary.fill
         h1.title reception at
         h2.subtitle the ritz charles
-        a.subtitle(href='https://goo.gl/ZyHt1m') 12156 n. meridian st, carmel, in 46032
+        a.subtitle(href='https://goo.gl/ZyHt1m') 12156 n. meridian st, carmel, in 46032#[br]
+        a.subtitle(href='https://goo.gl/forms/bJFwNb0qNHE36ozg2') request songs here!
         img(src='./assets/garden-pavilion-small.jpg')
 </template>
 
@@ -25,4 +25,6 @@ export default {
 <style lang="sass" scoped>
 img
   margin-top: 60px
+.fill
+  height: 100%
 </style>
