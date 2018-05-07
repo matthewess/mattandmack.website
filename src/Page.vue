@@ -7,6 +7,7 @@
     .column
       Bios(v-observe-visibility='bioVisible')
       Location(v-observe-visibility='locationVisible')
+      Accommodations(v-observe-visibility='accommodationsVisible')
       Gallery(v-observe-visibility='galleryVisible')
       Registry(v-observe-visibility='registryVisible')
   PageFooter
@@ -17,6 +18,7 @@ import Hero from './Hero.vue';
 import NavMenu from './NavMenu.vue';
 import Bios from './Bios.vue';
 import Location from './Location.vue';
+import Accommodations from './Accommodations.vue';
 import Gallery from './Gallery.vue';
 import Registry from './Registry.vue';
 import PageFooter from './PageFooter.vue';
@@ -28,6 +30,7 @@ export default {
     NavMenu,
     Bios,
     Location,
+    Accommodations,
     Gallery,
     Registry,
     PageFooter,
@@ -46,6 +49,11 @@ export default {
     locationVisible(visible) {
       if (visible) {
         this.visibleComponent = 'location';
+      }
+    },
+    accommodationsVisible(visible) {
+      if (visible) {
+        this.visibleComponent = 'accommodations';
       }
     },
     galleryVisible(visible) {

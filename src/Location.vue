@@ -12,8 +12,8 @@
         h1.title reception at
         h2.subtitle the ritz charles
         a.subtitle(href='https://goo.gl/ZyHt1m') 12156 n. meridian st, carmel, in 46032#[br]
-        a.subtitle(href='https://goo.gl/forms/bJFwNb0qNHE36ozg2') request songs here!
         img(src='./assets/garden-pavilion-small.jpg')
+        a.has-text-weight-bold.is-size-4(href='https://goo.gl/forms/bJFwNb0qNHE36ozg2') request songs here!
 </template>
 
 <script>
@@ -25,6 +25,7 @@ export default {
 <style lang="sass" scoped>
 img
   margin-top: 60px
+  margin-bottom: 10px
 .fill
   height: 100%
 </style>

@@ -12,6 +12,10 @@
         v-scroll-to='"#location"') location
       li
         a(href='#'
+        :class='{ "is-active": visibleComponent === "accommodations"}'
+        v-scroll-to='"#accommodations"') accommodations
+      li
+        a(href='#'
         :class='{ "is-active": visibleComponent === "gallery"}'
         v-scroll-to='"#gallery"') photos
       li
